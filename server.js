@@ -21,7 +21,7 @@ app.post('/bfhl', function(req, res){
         }),
 
     };
-    res.send(JSON.stringify(response));
+    res.send(response);
 });
 
 app.listen(process.env.PORT||3000, function(){
